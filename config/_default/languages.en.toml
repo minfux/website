@@ -17,7 +17,7 @@ title = "Apakka's tech blog"
 [params.author]
   name = "Apakka"
   image = "img/author.png"
-  bio = "I just make stuff"
+  bio = "IT engineering student and tinkerer"
   headline = "I just make stuff"
 #   email = "youremail@example.com"
 #   imageQuality = 96

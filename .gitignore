@@ -1,0 +1,9 @@
+# Hugo
+.hugo_build_lock
+public
+resources
+
+# Other
+node_modules
+package-lock.json
+package.json

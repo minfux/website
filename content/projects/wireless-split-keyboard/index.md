@@ -1,5 +1,6 @@
-+++
-title = 'Wireless Split Keyboard'
-date = '2025-12-06'
-draft = true
-+++
+---
+title: "Wireless split keyboard"
+summary: "Building an Aurora Corne wireless split keyboard."
+date: 2025-12-06
+draft: true
+---
