@@ -39,7 +39,7 @@ In the previous image, you can see the part number or "P/N, for short," written 
 
 ## Purchasing the replacement
 
-Now this part is not something that you usually pick up from your local electronics retailer. There is of course the chance that repair shops have these lying around, but in this case we will be purchasing it from AliExpress. Another option which seems to have an abundance of them as of writing is eBay. On AliExpress, some listings can be ambiguous about whether the part you're buying is the plastic or the metal one. Some listings may straight up list the wrong part number. If it's not immediately obvious from the pictures or the description of the listing on which part is being sold then I recommend verifying this information from the seller. If the seller fails to provide a straight answer, then I'd steer clear ofthem. In the upcoming steps we will be installing the new lid where we will be using some thin double-sided acrylic tape to re-secure the components so I'd recommend picking up that as well in this step if you don't already have something similar.
+Now this part is not something that you usually pick up from your local electronics retailer. There is of course the chance that repair shops have these lying around, but in this case we will be purchasing it from AliExpress. Another option which seems to have an abundance of them as of writing is eBay. On AliExpress, some listings can be ambiguous about whether the part you're buying is the plastic or the metal one. Some listings may straight up list the wrong part number. If it's not immediately obvious from the pictures or the description of the listing on which part is being sold then I recommend verifying this information from the seller. If the seller fails to provide a straight answer, then I'd steer clear of them. In the upcoming steps we will be installing the new lid where we will be using some thin double-sided acrylic tape to re-secure the components so I'd recommend picking up that as well in this step if you don't already have something similar.
 
 ## Removing the old lid
 
@@ -67,17 +67,17 @@ After you have removed the antenna connectors, you can unscrew the screws holdin
     
 ### Remove the ribbon cable
 
-Start by disconnecting the ribbon cable from the module and slowly peel itoff the lid. Once you've peeled to the intersection where the cable joins the LED cable you can then peel that cable, starting from where LED is. After that you can remove the rest of the cable that is routed near the bottom edge of the lid. 
+Start by disconnecting the ribbon cable from the module and slowly peel it off the lid. Once you've peeled to the intersection where the cable joins the LED cable you can then peel that cable, starting from where LED is. After that you can remove the rest of the cable that is routed near the bottom edge of the lid. 
     
 ![Camera module](camera.jpg "Camera module with its ribbon cable.")
     
 ### Remove the camera module
     
-Once you have fully removed the ribbon cable and stored it away, you can start removing the camera module. This one can be tricky so be patient. It is recommended to use multiple tools here to the module off from multiple points in order to apply even pressure. You should also take the piece of plastic on the left of the camera module and transfer it to the new lid as it adds some structural integrity.
+Once you have fully removed the ribbon cable and stored it away, you can start removing the camera module. This one can be tricky so be patient. It is recommended to use multiple tools here to pry the module off from multiple points in order to apply even pressure. You should also take the piece of plastic on the left of the camera module and transfer it to the new lid as it adds some structural integrity.
     
 ## Installing the new lid
 
-You should have now removed all the necessary components from the old lid. Now it's time to start putting them into the new lid that you hopefully received. Here we will need some of that tape for reinforcement if the glue isn't sticky enough anymore. We're basically retracing our steps in reverse, execpt that I will provide more detailed imagery of the steps involved.
+You should have now removed all the necessary components from the old lid. Now it's time to start putting them into the new lid that you hopefully received in the mail. Here we will need some of that tape for reinforcement if the glue isn't sticky enough anymore. We're basically retracing our steps in reverse, execpt that I will provide more detailed imagery of the steps involved.
 
 ### Reattach the camera module
 
@@ -87,7 +87,7 @@ You should have now removed all the necessary components from the old lid. Now i
 
 ![Cable reattached half way](ribbon-1.jpg "Ribbon cable of the camera attached with tape (connect the cable to the module first).")
     
-![Cable attached fully](ribbon-2.jpg "Ribbon cable of the led attached.")
+![Cable attached fully](ribbon-2.jpg "Ribbon cable of the LED attached.")
     
 ### Reattach antennas, brackets and hinges
 
