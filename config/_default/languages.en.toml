@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Apakka's tech blog"
+title = "Samuel's tech blog"
 
 [params]
   displayName = "EN"
@@ -15,7 +15,7 @@ title = "Apakka's tech blog"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "Apakka"
+  name = "Samuel"
   image = "img/author.png"
   bio = "IT engineering student and tinkerer"
   headline = "I just make stuff"
@@ -39,7 +39,7 @@ title = "Apakka's tech blog"
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
-#     { instagram = "https://instagram.com/username" },
+#     { insram = "https://instagram.com/username" },
 #     { itch-io = "https://username.itch.io" },
 #     { keybase = "https://keybase.io/username" },
 #     { keyoxide = "https://keyoxide.org/URI" },
