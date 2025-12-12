@@ -20,10 +20,10 @@
   pageRef = "about"
   weight = 20
 
-[[main]]
-  pre = "github"
-  url = "https://github.com/minfux"
-  weight = 30
+# [[main]]
+#   pre = "github"
+#   url = "https://github.com/minfux"
+#   weight = 30
 
 #[[main]]
 #  name = "example sub-menu 1"
