@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="eE2wFRJmyAO_fVVQCJ67">
+    <mxGraphModel dx="570" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3DzI-1wmfPIOWLI4vmHC-1" value="/dev/nvme0n1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;strokeWidth=3;fontSize=7;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3DzI-1wmfPIOWLI4vmHC-2" value="/dev/nvme0n1p1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;strokeWidth=3;fontSize=7;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3DzI-1wmfPIOWLI4vmHC-3" value="/dev/nvme0n1p2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;strokeWidth=3;fontSize=7;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="410" y="440" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DzI-1wmfPIOWLI4vmHC-4" value="/dev/mapper/clvm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;strokeWidth=3;perimeterSpacing=6;glass=0;shadow=0;fontSize=7;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DzI-1wmfPIOWLI4vmHC-5" value="ESP (FAT32)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;strokeWidth=3;fontSize=7;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3DzI-1wmfPIOWLI4vmHC-13" value="/dev/cvolgp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;strokeWidth=3;perimeterSpacing=6;glass=0;shadow=0;fontSize=7;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="410" y="360" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DzI-1wmfPIOWLI4vmHC-14" value="/dev/cvolgp/root&lt;div&gt;(EXT4)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;strokeWidth=3;perimeterSpacing=6;glass=0;shadow=0;fontSize=7;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="410" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DzI-1wmfPIOWLI4vmHC-15" value="/dev/cvolgp/swap&lt;div&gt;(SWAP)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;strokeWidth=3;perimeterSpacing=6;glass=0;shadow=0;fontSize=7;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DzI-1wmfPIOWLI4vmHC-16" value="/dev/cvolgp/home&lt;div&gt;(EXT4)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;strokeWidth=3;perimeterSpacing=6;glass=0;shadow=0;fontSize=7;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
