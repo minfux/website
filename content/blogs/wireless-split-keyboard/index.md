@@ -6,7 +6,7 @@ categories: ["hardware", "modding"]
 draft: false
 ---
 
-In this blog, I am building a completely wireless custom 42-key split keyboard. The PCB for this build, designed by [Splitkb.com](https://splitkb.com), is a derivative of the [original Corne](https://github.com/foostan/crkbd) design by Foostan. I am not affiliated with Splitkb.com, but they are among the good few in the EU that sell pre-made PCBs, switches, keycaps, and other parts for custom keyboards. What makes it wireless is the pair of [nice!nano](https://nicekeyboards.com/nice-nano/) microcontrollers along with the ZMK firmware.
+In this blog, I am building a completely wireless custom 42-key split keyboard. The PCB for this build, designed by [Splitkb.com](https://splitkb.com), is a derivative of the [original Corne](https://github.com/foostan/crkbd) design by Foostan. I am not affiliated with Splitkb.com, but they are among the good few in the EU that sell pre-made PCBs, switches, keycaps, and other parts for custom keyboards. What makes it wireless is the pair of [nice!nano](https://nicekeyboards.com/nice-nano/) microcontrollers along with the [ZMK firmware](https://zmk.dev).
 
 Custom keyboards tend to be on the more expensive side, but you can of course leave out the parts that aren't absolutely necessary for the function of the keyboard, such as the acrylic plates, displays, or tenting legs. You can also cut costs by going the full DIY route of 3D printing the parts yourself and getting the PCB printed by a manufacturer like [PCBWay](https://pcbway.com). If you decide to go that route, consider creating your own design if you have the time and patience. This opens up the opportunity to design it precisely for your needs on top of teaching you a thing or two about PCB design!
 
@@ -14,11 +14,11 @@ Custom keyboards tend to be on the more expensive side, but you can of course le
 
 ### The issue with modern keyboards
 
-Admittedly, the split keyboard has a bit of a niche market, especially compared to the ubiquitous QWERTY keyboard that comes in ISO and ANSI variants. A third, less common standard is JIS, which is used primarily in Japan. One reason for its popularity is its long history and wide adoption, stemming from the age of the typewriter. Despite its downsides, the layout along with the arrangement of keys is still the most popular in today's keyboards. Notably, the horizontal staggering of the keys is a feature to prevent the typebars of typewriters from jamming when multiple keys are pressed at the same time. This, however, presents no mechanical or ergonomic advantage in modern keyboards.
+Admittedly, the split keyboard has a bit of a niche market, especially compared to keyboards with the ubiquitous QWERTY layout that comes in ISO and ANSI variants. A third, less common standard is JIS, which is used primarily in Japan. One reason for its popularity is its long history and wide adoption, stemming from the age of the typewriter. Despite its downsides, the layout along with the arrangement of keys is still the most popular in today's keyboards. Notably, the horizontal staggering of the keys is a feature to prevent the typebars of typewriters from jamming when multiple keys are pressed at the same time. This, however, presents **no mechanical or ergonomic advantage** in modern keyboards.
 
 ![ANSI and ISO layout](img/layouts.jpg "*Image by Switch and Click.*")
 
-Another drawback of this physical layout is that the keys are all in a single compact cluster. This can be inflexible for people with varying shoulder widths. When we rest our hands on the keyboard in a touch-typing position, our wrists are often parallel to the keys of the home row. If your shoulders are any wider than the home row, then your wrists will be in ulnar deviation. I myself have adjusted for this by resting my hands on the keyboard at a slight angle and curling my fingers appropriately, so that there is no deviation in my wrists.
+Another drawback of this physical layout is that the keys are all in a single, compact cluster. This can be inflexible for people with varying shoulder widths. When we rest our hands on the keyboard in a touch-typing position, our wrists are often parallel to the keys of the home row. If your shoulders are any wider than the home row, then your wrists will be in ulnar deviation. I myself have adjusted for this by resting my hands on the keyboard at a slight angle and curling my fingers appropriately, so that there is no deviation in my wrists.
 
 ![Ulnar deviation demonstration](img/ulnar-deviation.gif "*Demonstration of ulnar deviation when typing.*")
 
@@ -58,7 +58,7 @@ Here's some of the equipment that I used for this build. Most importantly, a sol
 
 ### Diodes
 
-I first soldered the SMD diodes onto the PCB. There are two small pads for each diode. I first applied a small amount of solder for each pair of pads. I then moved a diode over a pad with a pair of tweezers, soldered one connection by reflowing the previously applied solder, and then the other connection. I repeated this for each diode for both halves of the keyboard. I also applied some solder to the switch socket pads in this step. The diodes are quite small, so I took my time here. They also need to be in the correct orientation.
+I first soldered the SMD diodes onto the PCB. There are two small pads for each diode. I first applied a small amount of solder for each pair of pads. I then moved a diode over a pad with a pair of tweezers, soldered one connection by reflowing the previously applied solder, and then the other connection. I repeated this for each diode for both halves of the keyboard. Likewise, I also applied some solder to the switch socket pads in this step. The diodes are quite small, so I took my time here. They also need to be in the correct orientation.
 
 ![SMD diodes](img/smd.jpg "*SMD diodes up close.*")
 ![Soldering the diodes](img/diodes.jpg "*Diodes soldered onto the right half.*")
@@ -73,7 +73,7 @@ I then soldered on the hot-swap switch sockets that allow for hot-swapping the b
 
 ### Resistors and reset button
 
-Next I soldered on the resistors R1 and R2. I also soldered on the reset button in this step. This lets you to enter bootloader mode by quickly pressing the button twice in succession, allowing you to flash the firmware again. If you press it once, you can reset the controller's connection. This is handy if you are experiencing connection issues.
+Next I soldered on the resistors R1 and R2. I also soldered on the reset button in this step. This lets you enter bootloader mode by quickly pressing the button twice in succession, allowing you to flash the firmware again. If you press it once, you can reset the controller's connection. This is handy if you are experiencing connection issues.
 
 ![Resistors and reset switch](img/resistor-and-reset.jpg "*Resistors R1, R2 and reset switch soldered on.*")
 
