@@ -32,7 +32,7 @@ Next up: the display. Start by removing the four screws near each corner of the 
 
 ### Read the part number
 
-In the previous image, you can see the part number or “P/N, for short,” written out in the bottom-left corner of the lid. In my case, the number is `FA12D000100`. We can now use this information to verify that we are purchasing the right part.
+In the previous image, you can see the part number or “P/N, for short,” written out in the bottom left corner of the lid. In my case, the number is `FA12D000100`. We can now use this information to verify that we are purchasing the right part.
 
 {{< alert >}}
 **Warning!** It is very important that you buy a new component according to the part number that you have! In the case of the T480, there are two configurations available. One model with a plastic top lid and one with a magnesium composite top lid. Both come with different bezels that are not cross-compatible.
