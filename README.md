@@ -8,6 +8,8 @@ Repo for my personal website where I blog about my projects and other interests.
 
 https://gohugo.io/
 
+https://github.com/gohugoio/hugo
+
 ### Blowfish theme for Hugo
 
 https://blowfish.page/
@@ -17,6 +19,8 @@ https://github.com/nunocoracao/blowfish/
 ### Giscus comments
 
 https://giscus.app/
+
+https://github.com/giscus/giscus
 
 ### Cloudflare workers
 
