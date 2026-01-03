@@ -36,7 +36,7 @@ Before all else, you should test that the modchip works by connecting the modchi
 
 ### Open up the switch
 
-I'm not going to show the detailed steps on how to tear down the Switch. You can, however, find those steps on the guides from iFixit, for example. You should tear apart the Switch, until you get to the bare SoC. Before you do that, it's a good idea to cover the screen with something like tape to prevent scratches when you're working on it. Remember to unplug the battery, once you get to that step. I also disconnected the speaker near the SoC, because its cable was in the way a little. Clean up all the solder paste in preparation for soldering. I first wiped off the bulk with paper, then with a Q-tip and isopropyl alcohol, and lastly with a toothbrush to get the paste between the capacitors on the SoC die.
+I'm not going to show the detailed steps on how to tear down the Switch. You can, however, find those steps on the guides from iFixit, for example. You should take apart the Switch, until you get to the bare SoC. Before you do that, it's a good idea to cover the screen with something like tape to prevent scratches when you're working on it. Remember to unplug the battery, once you get to that step. I also disconnected the speaker near the SoC, because its cable was in the way a little. Clean up all the solder paste in preparation for soldering. I first wiped off the bulk with paper, then with a Q-tip and isopropyl alcohol, and lastly with a toothbrush to get the paste between the capacitors on the SoC die.
 
 ![Teardown](img/teardown.jpg "*Switch opened up.*")
 
@@ -44,7 +44,7 @@ I'm not going to show the detailed steps on how to tear down the Switch. You can
 
 ### Solder on the ribbon cable
 
-The Picofly Core kit comes with ribbon cables for the V1 and V2 version of the Switch, respectively. The difference between them is the orientation of the capacitors to be soldered to the pads on the cable. Apply flux and pre-tin the pads labeled `SP1` and `SP2` on the ribbon cable. I didn't have flux at the time of soldering, but I tried anyway. Long story short, the experience was so terrible that I stopped to order some before continuing. I used lead-free solder with a flux core, but the flux would evaporate before I got to do the actual soldering of the capacitors. 
+The Picofly Core kit comes with ribbon cables for the V1 and V2 version of the Switch, respectively. The difference between them is the orientation of the capacitors to be soldered to the pads on the cable. Apply flux and pre-tin the pads labeled `SP1` and `SP2` on the ribbon cable. I didn't have extra flux at the time of soldering, but I tried anyway. Long story short, the experience was so terrible that I stopped to order some before continuing. I used lead-free solder with a flux core, but the flux would evaporate before I got to do the actual soldering of the capacitors. 
 
 After you have tinned the pads on the cable, place it, so that the pads align with the first capacitor from the left and the second last to the right. Make sure the two anker pads and the large pad of the MOSFET section of the cable are under the metal frame around the SoC.  Apply more flux to the pads, and while holding down the cable with something like a pair of tweezers, carefully solder the two pairs of pads to the ends of the capacitors. You should be constantly cleaning your iron during the process. Lastly, solder the two anker points to the frame. Using Q-tips, a toothbrush, and isopropyl alcohol, remove the remaining flux to prevent corrosion.
 
