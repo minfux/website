@@ -11,14 +11,14 @@ title = "Sam's Tech Lair"
   dateFormat = "2 January 2006"
   copyright = "© { year } Sam’s Tech Lair"
   description = "Welcome to my lair! Here you'll find blog posts about technology, modding/repair, and other topics related to my interests. You can leave comments to my posts if you have suggestions or feedback relating to my content or otherwise."
-  # logo = "author.png"
+  logo = "author-logo.png"
   # secondaryLogo = "author.png"
 
 [params.author]
   name = "Samuel"
   image = "author.png"
   bio = "IT engineering student and tinkerer"
-  headline = "I make stuff and write about it"
+  headline = "Making, writing, and posting about random tech since 2025"
   email = "sam@samstechlair.com"
 #   imageQuality = 96
    links = [
