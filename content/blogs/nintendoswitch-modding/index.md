@@ -15,9 +15,9 @@ Currently, there are two hardware revisions of the Switch. Any Switch that was m
 
 In July 2019 Nintendo announced two updated consoles: the Switch Lite (HDH-001) and a new model of the original Switch (HAC-001(-01)/“V2”) with better battery life. Both models have the upgraded Tegra X1+ SoC and a completely new boot ROM, which can only be hacked with a modchip. There's also an OLED version (HEG-001), which came out in 2021. I have the V2, which I'll be modding. To identify your Switch, you can follow the NH Switch Guide.
 
-{{< alert "lightbulb" >}}
+> [!NOTE]
 The Nintendo Switch 2, released on June 5, 2025, is ignored here. Some user land exploits have [already been demonstrated](https://www.tomshardware.com/video-games/handheld-gaming/hackers-discover-nintendo-switch-2-exploit-one-day-after-launch-minor-hack-allows-running-custom-code-on-top-of-os), but it's not enough to gain privileged access to the device. No hardware hacks have been discovered either.
-{{< /alert >}}
+
 ## Obtain the modchip
 
 The modchip that I'll be installing is the Picofly, which comes in different variants based on the Switch model. Core for the normal Switch, Lite for the Lite Switch, and OLED for the OLED. All are based on the RP2040 microcontroller. You may also use RP2040 development boards like the RP2040-Zero, but the installation is way more involved. The modchips are most commonly found on AliExpress.

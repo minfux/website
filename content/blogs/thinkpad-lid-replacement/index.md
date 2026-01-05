@@ -34,9 +34,8 @@ Next up: the display. Start by removing the four screws near each corner of the 
 
 In the previous image, you can see the part number or “P/N, for short,” written out in the bottom left corner of the lid. In my case, the number is `FA12D000100`. We can now use this information to verify that we are purchasing the right part.
 
-{{< alert >}}
-**Warning!** It is very important that you buy a new component according to the part number that you have! In the case of the T480, there are two configurations available. One model with a plastic top lid and one with a magnesium composite top lid. Both come with different bezels that are not cross-compatible.
-{{< /alert >}}
+> [!NOTE]
+It is very important that you buy a new component according to the part number that you have! In the case of the T480, there are two configurations available. One model with a plastic top lid and one with a magnesium composite top lid. Both come with different bezels that are not cross-compatible.
 
 ## Purchasing the replacement
 
@@ -104,6 +103,6 @@ You should have now removed all the necessary components from the old lid. Now i
 
 ![Top view](img/lid.jpg "*Top view of the finished product (don't mind the sticker).*")
 
-## Wrapping up
+## Conclusion
 
 That was it! You could optionally leave the tape out when reattaching the bezel, but there may be a glaring gap between the bezel and the display. Note that I also replaced the bezel here, since it was worn out – hence the extra tape. You only need to put a thin ribbon of tape around the edges of the LCD. Now was this whole ordeal worth the experience? Totally! Was it worth the money and time invested? Maybe. If you have any questions, suggestions or feedback, feel free to comment below. As always, thanks for taking your time reading my blog!

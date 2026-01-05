@@ -66,9 +66,8 @@ You can then get an estimate of the time each operation will take to complete. O
 
 You can now start the erasure using either crypto erase sanitize or block erase sanitize. Avoid using the overwrite operation, even if supported, as this causes unnecessary wear.
 
-{{< alert cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
+> [!WARNING]
 The block device name assignments, for example **/dev/nvme0n1** and **/dev/sda** are arbitrary and non-persistent. Make sure the block device names that you are using, refer to the drive you're intending on erasing. Failure to do so **may result in data loss!**
-{{< /alert >}}
 
 **Crypto erase**
 
@@ -181,14 +180,15 @@ HOOKS=(base udev autodetect microcode modconf kms keyboard keymap consolefont bl
 
 Lastly, configure your bootloader. The following kernel parameters need to be configured (`resume` optional for hibernation). You can get the device UUIDs with the command `blkid`.
 
-{{< alert >}}
+> [!NOTE]
 Don't use the automatically assigned block device names i.e., /dev/sda, /dev/nvme0n1, etc. These are not persistent, and can change between boots, making your system unbootable, forcing you to boot to an installation image to fix it.
-{{< /alert >}}
 
 ```bash
 cryptdevice=UUID=encrypted-partition-UUID:cryptlvm root=/dev/cvolgp/root resume=UUID=swap-volume-UUID
 ```
 
-## Wrapping up
+## Conclusion
 
 If you have done all the necessary generic steps required for the installation, then you should be able to reboot and be presented with the password prompt. After unlocking, the system will continue booting until it reaches the display manager, if that's something you already installed. With GNOME, it would be GDM. This is obviously still quite an incomplete installation. There are some additions you could make to improve security, such as enabling **secure boot** and **TPM**. You can also enable TPM to use it for passwordless unlocking. This means that the encrypted partitions of drives attached to your computer cannot be deciphered without the secrets stored in the TPM on the motherboard. It's a good idea to check out [general recommendations](https://wiki.archlinux.org/title/General_recommendations) for more information. If you have any questions, suggestions or feedback, feel free to comment below. As always, thanks for taking your time reading my blog!
+
+> [Thumbnail by **astize**](https://bbs.archlinux.org/viewtopic.php?pid=1821686#p1821686)
