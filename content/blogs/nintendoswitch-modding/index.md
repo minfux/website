@@ -3,6 +3,7 @@ title: Nintendo Switch hardware modding
 summary: A guide on how to install a modchip to your Nintendo Switch.
 date: 2025-05-01
 categories:
+  - blog
   - hardware
   - modding
 draft: false

@@ -3,6 +3,7 @@ title: Installing Arch Linux with encryption
 summary: How to install Arch Linux with LVM and full disk encryption. Including my experience with linux.
 date: 2025-12-06
 categories:
+  - blog
   - linux
   - arch
   - security

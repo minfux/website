@@ -1,8 +1,11 @@
 ---
-title: "How to replace the lid on a ThinkPad T480"
-summary: "How to remove an old lid from your ThinkPad T480 and install a new one."
+title: How to replace the lid on a ThinkPad T480
+summary: How to remove an old lid from your ThinkPad T480 and install a new one.
 date: 2025-06-25
-categories: ["hardware", "repair"]
+categories:
+  - blog
+  - hardware
+  - repair
 draft: false
 ---
 

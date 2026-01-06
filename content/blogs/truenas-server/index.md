@@ -3,6 +3,7 @@ title: Transform an old PC into an  8 terabyte NAS and media server
 summary: Building a server from an old gaming PC and installing TrueNAS community edition.
 date: 2025-07-24
 categories:
+  - blog
   - hardware
   - server
 draft: false

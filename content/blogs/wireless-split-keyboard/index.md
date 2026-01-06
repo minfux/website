@@ -1,8 +1,11 @@
 ---
-title: "Wireless split keyboard build"
-summary: "Building an Aurora Corne wireless split keyboard."
+title: Wireless split keyboard build
+summary: Building an Aurora Corne wireless split keyboard.
 date: 2025-05-15
-categories: ["hardware", "modding"]
+categories:
+  - blog
+  - hardware
+  - modding
 draft: false
 ---
 
