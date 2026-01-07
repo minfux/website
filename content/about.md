@@ -16,6 +16,26 @@ Hello, my name is Samuel, a student studying for a bachelor's degree in engineer
 
 Despite the mascot I use as my profile picture, I'm shockingly not an Apple Macintosh in real life! I try to keep my public details in this blog to a minimum, but rest assured my name is real and not a pseudonym. Regardless, I always try to remain as transparent as I can in my writing. I seek to minimize ambiguity of interpretation in my blog posts by providing enough detail when necessary, and by citing my sources. If no sources are provided for a claim, then you'll know they are my own opinion or conclusion and should be taken as is. In case you have any questions, suggestions or feedback, please feel free to leave a comment in any of my posts.
 
+> [!TIP]- GitHub GPG public key
+> ```
+> -----BEGIN PGP PUBLIC KEY BLOCK-----
+>
+> mDMEaV22ShYJKwYBBAHaRw8BAQdAz77u1KxYnXYm8w5/Xzd8NHQDlXqz+ol5uTLm
+> KQDEW9O0Mm1pbmZ1eCA8MTg3MTgyOTU5K21pbmZ1eEB1c2Vycy5ub3JlcGx5Lmdp
+> dGh1Yi5jb20+iJAEExYKADgWIQSh6jbdlyIFbV8MmaZt7Y/mpduWcQUCaV22SgIb
+> AwULCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRBt7Y/mpduWccA9AP9CljEzfDU7
+> p1pJhwqy4fyS0ykBdnfrFgiu/WC+vRRaBgEA/QBWDs6aiKqBVU+R6kxMbepHUq74
+> zFyHHHzp7S5LPwu4OARpXbZKEgorBgEEAZdVAQUBAQdAOuZNO73njWT3LNHdn7NO
+> slV+LP0beSD75MYMUyL8+DgDAQgHiHgEGBYKACAWIQSh6jbdlyIFbV8MmaZt7Y/m
+> pduWcQUCaV22SgIbDAAKCRBt7Y/mpduWcaoCAP4zndL/7kcnJzV4s/Ox1nOIRabB
+> K0JPM+HNBK90a3KgpQD+L8GDHOkf2ubSkurNsiWx1w/wuy6SCR6WiT0Y3BKAXg8=
+> =ty01
+> -----END PGP PUBLIC KEY BLOCK-----
+> ```
+> ```
+> A1EA 36DD 9722 056D 5F0C  99A6 6DED 8FE6 A5DB 9671
+> ```
+
 ---
-> [!TIP] Written by a human
+> [!NOTE] Written by a human
 Artificial intelligence is not used to directly generate text for my writing. I do still occasionally use it for research purposes. If information provided by LLMs is used, then the model and prompt will be provided as context.
