@@ -1,6 +1,7 @@
 ---
 title: Who am I?
 summary: Some information about me and my blog.
+showHero: false
 showDate: false
 showZenMode: false
 showRelatedContent: false
