@@ -5,7 +5,6 @@ date: 2025-12-06
 categories:
   - blog
   - linux
-  - arch
   - security
 draft: false
 ---
