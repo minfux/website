@@ -16,7 +16,7 @@ Hello, my name is Samuel, a student studying for a bachelor's degree in engineer
 
 Despite the mascot I use as my profile picture, I'm shockingly not an Apple Macintosh in real life! I try to keep my public details in this blog to a minimum, but rest assured my name is real and not a pseudonym. Regardless, I always try to remain as transparent as I can in my writing. I seek to minimize ambiguity of interpretation in my blog posts by providing enough detail when necessary, and by citing my sources. If no sources are provided for a claim, then you'll know they are my own opinion or conclusion and should be taken as is. In case you have any questions, suggestions or feedback, please feel free to leave a comment in any of my posts.
 
-> [!TIP]- GitHub GPG public key
+> [!TIP]- [GitHub GPG public key](/publickey.asc)
 > ```
 > -----BEGIN PGP PUBLIC KEY BLOCK-----
 >
@@ -35,6 +35,7 @@ Despite the mascot I use as my profile picture, I'm shockingly not an Apple Maci
 > ```
 > A1EA 36DD 9722 056D 5F0C  99A6 6DED 8FE6 A5DB 9671
 > ```
+{icon="pgpkey"}
 
 ---
 > [!NOTE] Written by a human
