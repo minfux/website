@@ -3,3 +3,9 @@
   text-align-last: left;
   hyphens: auto;
 }
+
+img.rounded-full.medium-zoom-image {
+    width: 12rem;  /* Default is usually 8rem or 10rem */
+    height: 12rem;
+    border-radius: 0;
+}

@@ -11,7 +11,6 @@ title = "Sam's Tech Lair"
   dateFormat = "2 January 2006"
   copyright = "© { year } Sam’s Tech Lair"
   description = "Welcome to my lair! Here you'll find blog posts about technology, modding/repair, and other topics related to my interests. You can leave comments to my posts if you have suggestions or feedback relating to my content or otherwise."
-  logo = "author-logo.png"
   # secondaryLogo = "author.png"
 
 [params.author]
