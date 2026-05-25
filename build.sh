@@ -8,20 +8,11 @@
 #------------------------------------------------------------------------------
 
 main() {
-
-  DART_SASS_VERSION=1.93.3
-  GO_VERSION=1.25.4
-  HUGO_VERSION=0.154.1
-  NODE_VERSION=24.11.0
+  GO_VERSION=1.26.3
+  HUGO_VERSION=0.161.1
+  NODE_VERSION=24.16.0
 
   export TZ=Europe/Helsinki
-
-  # Install Dart Sass
-  echo "Installing Dart Sass ${DART_SASS_VERSION}..."
-  curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-  tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-  rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-  export PATH="${HOME}/.local/dart-sass:${PATH}"
 
   # Install Go
   echo "Installing Go ${GO_VERSION}..."

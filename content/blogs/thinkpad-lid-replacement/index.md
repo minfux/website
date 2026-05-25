@@ -108,4 +108,4 @@ You should have now removed all the necessary components from the old lid. Now i
 
 ## Conclusion
 
-That was it! You could optionally leave the tape out when reattaching the bezel, but there may be a glaring gap between the bezel and the display. Note that I also replaced the bezel here, since it was worn out – hence the extra tape. You only need to put a thin ribbon of tape around the edges of the LCD. Now was this whole ordeal worth the experience? Totally! Was it worth the money and time invested? Maybe. If you have any questions, suggestions or feedback, feel free to comment below. As always, thanks for taking your time reading my blog!
+That was it! You could optionally leave the tape out when reattaching the bezel, but there may be a glaring gap between the bezel and the display. Note that I also replaced the bezel here, since it was worn out – hence the extra tape. You only need to put a thin ribbon of tape around the edges of the LCD. Now was this whole ordeal worth it in end? I would say yes, from the perpective of learning how to repair and maintain your own devices this was worth the time and monetary investment.

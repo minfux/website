@@ -67,6 +67,4 @@ You can now start putting the Switch back together. After you have tested that y
 
 ## Conclusion
 
-That's all you need to do to unlock a patched Nintendo Switch. At least that was the hard part. Next up, you would download a bootloader like Hekate on to a SD card, which allows you to easily load custom firmware like Atmosphère, or even Android and Linux for whatever reason. Hekate has many other features as well, such as, backing up your sysMMC, formatting a SD card and setting up emuMMC, and viewing hardware information. If you have any questions, suggestions or feedback, feel free to comment below. As always, thanks for taking your time reading my blog!
-
-![Conclusion](img/conclusion.jpg)
+That's all you need to do to unlock a Nintendo Switch. At least the hard part. Next up, you should download a bootloader like Hekate on to an SD card, which allows you to easily load custom firmware like Atmosphère, or even Android and Linux if you like. Hekate offers many useful features, such as, backing up your sysMMC, formatting an SD card and setting up emuMMC, and viewing hardware information. With Atmosphère you can customize the look of the UI, backup your game saves, and mod your games to add new features.
